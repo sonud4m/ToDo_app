@@ -1,4 +1,4 @@
 FROM php:8.2-cli
-COPY . /usr/src/myapp
-WORKDIR /usr/src/myapp
+COPY . /Users/sonud4m/Desktop/cord/ToDo_app
+WORKDIR /Users/sonud4m/Desktop/cord/ToDo_app
 CMD [ "php", "./your-script.php" ]
